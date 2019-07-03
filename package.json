@@ -1,0 +1,34 @@
+{
+  "name": "cy_selfcare",
+  "version": "1.0.0",
+  "description": "Acceptance tests selfcare new stack",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "cleanup": "rm -fr coverage/e2e",
+    "merge_reports": "npx mochawesome-merge --reportDir coverage/e2e > coverage/e2e/report.json",
+    "generate_mochawesome_report": "npx marge --charts --code=false -o=coverage/e2e  coverage/e2e/report.json",
+    "cy:report": "npm run cleanup; npm run cy:run; npm run merge_reports; npm run generate_mochawesome_report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitsludwringliccien/cy_selfcare.git"
+  },
+  "author": "Ludwring Liccien <ludwring.liccien@bitsamericas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitsludwringliccien/cy_selfcare/issues"
+  },
+  "homepage": "https://github.com/bitsludwringliccien/cy_selfcare#readme",
+  "devDependencies": {
+    "cypress": "^3.3.2",
+    "cypress-cucumber-preprocessor": "^1.12.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1",
+    "mochawesome-merge": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
