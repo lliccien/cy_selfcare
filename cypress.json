@@ -1,1 +1,14 @@
-{}
+{
+    "baseUrl": "http://selfcare.dev.co",
+    "ignoreTestFiles": "*.js",
+    "viewportHeight": 768,
+    "viewportWidth": 1024,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "./coverage/e2e",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "chromeWebSecurity": false
+}
