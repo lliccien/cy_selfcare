@@ -5,7 +5,9 @@
     "viewportWidth": 1024,
     "reporter": "mochawesome",
     "reporterOptions": {
-      "reportDir": "./coverage/e2e",
+      "reportDir": "./docs",
+      "reportName": "Pruebas de Aceptación de Nuevo satck Mi Cuenta Tigo",
+      "reportTitle": "Pruebas de Aceptación de Nuevo satck Mi Cuenta Tigo",
       "overwrite": false,
       "html": false,
       "json": true

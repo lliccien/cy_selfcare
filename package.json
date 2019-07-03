@@ -6,9 +6,9 @@
   "scripts": {
     "cy:run": "npx cypress run",
     "cy:open": "npx cypress open",
-    "cleanup": "rm -fr coverage/e2e",
-    "merge_reports": "npx mochawesome-merge --reportDir coverage/e2e > coverage/e2e/report.json",
-    "generate_mochawesome_report": "npx marge --charts --code=false -o=coverage/e2e  coverage/e2e/report.json",
+    "cleanup": "rm -fr docs",
+    "merge_reports": "npx mochawesome-merge --reportDir docs > docs/index.json",
+    "generate_mochawesome_report": "npx marge --charts --code=false -o=docs  docs/index.json",
     "cy:report": "npm run cleanup; npm run cy:run; npm run merge_reports; npm run generate_mochawesome_report"
   },
   "repository": {

@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-07-03T20:10:54.594Z",
+    "end": "2019-07-03T20:10:54.595Z",
+    "duration": 128851,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0e818b07-f5fc-4d24-a892-ed2def972885",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "09a184f9-1ed1-4cde-b32e-1c695231f018",
+          "title": "Compra de paquetes con TC/TD",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mostrar radio-button de compra de paquetes 'Con tarjetas crédito o débito'",
+              "fullTitle": "Compra de paquetes con TC/TD Mostrar radio-button de compra de paquetes 'Con tarjetas crédito o débito'",
+              "timedOut": null,
+              "duration": 110409,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "e353ebd7-e4c6-46cf-9d6d-635c7dc720d0",
+              "parentUUID": "09a184f9-1ed1-4cde-b32e-1c695231f018",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Clic en botón pagar 'Con tarjetas crédito o débito'",
+              "fullTitle": "Compra de paquetes con TC/TD Clic en botón pagar 'Con tarjetas crédito o débito'",
+              "timedOut": null,
+              "duration": 18442,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "af3f854e-2eb9-4265-bb50-d08b937666a1",
+              "parentUUID": "09a184f9-1ed1-4cde-b32e-1c695231f018",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e353ebd7-e4c6-46cf-9d6d-635c7dc720d0",
+            "af3f854e-2eb9-4265-bb50-d08b937666a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 128851,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./docs",
+        "reportName": "Pruebas de Aceptación de Nuevo satck Mi Cuenta Tigo",
+        "reportTitle": "Pruebas de Aceptación de Nuevo satck Mi Cuenta Tigo",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.0.0"
+    }
+  }
+}
