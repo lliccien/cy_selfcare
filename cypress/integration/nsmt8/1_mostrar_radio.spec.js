@@ -10,7 +10,7 @@ Given('que estoy en el dashboard con una cuenta prepago', function () {
   })
   cy.wait(10000)
   cy.get('[ng-click="activeBlock = !activeBlock"] > .view-more').click({ force: true })
-  cy.contains('a', 'Prepago: (302) 381-9745').click()
+  cy.contains('a', 'Prepago: (301) 690 3621').click()
   cy.wait(5000)
 })
 

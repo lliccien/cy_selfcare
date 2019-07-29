@@ -13,7 +13,6 @@ Given('hago clic en botón pagar', function () {
 });
 
 Then('se debe redireccionar a {string} mas el token', function (string) {
-    // cy.url().should('include', string)
-    // cy.screenshot()
-    return 'skipping'
+    cy.url().should('include', string)
+    cy.screenshot()   
 });
