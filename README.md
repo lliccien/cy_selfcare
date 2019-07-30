@@ -92,7 +92,7 @@ Las features de deben crear en la carpeta `cypress/integration` con un archivo c
 ```
 cypress
     >integration
-        nsmt8.fecature
+        nsmt8.feature
         >msmt8
             1_mostrar_radio.spec.js
             2_pagar.spec.js
